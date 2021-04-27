@@ -1,9 +1,9 @@
 {
-	"name": "Page Redder",
+	"name": "Popup Remover",
 	"action": {},
 	"manifest_version": 3,
 	"version": "0.1",
-	"description": "Turns the page red when you click the icon",
+	"description": "Remove Annoying Pop-up When You Click the Icon",
 	"permissions": [
 		"activeTab",
 		"scripting"
