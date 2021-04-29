@@ -19,9 +19,9 @@ function removePopup() {
             elems[i].remove();
         }
     }
-    document.body.style.overflowX = null;
-    document.body.style.overflow = null;
-    document.body.style.overflowY = scroll;
+    document.body.style.cssText = "overflow-x: null";
+    document.body.style.cssText = "overflow-y: scroll!important";
+    document.body.style.cssText = "overflow: scroll!important";
 }
 
 chrome.action.onClicked.addListener((tab) => {
