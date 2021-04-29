@@ -20,6 +20,7 @@ function removePopup() {
         }
     }
     document.body.style.overflowX = null;
+    document.body.style.overflow = null;
     document.body.style.overflowY = scroll;
 }
 
